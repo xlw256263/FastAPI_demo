@@ -25,6 +25,10 @@
                   <el-icon><Collection /></el-icon>
                   我的收藏
                 </el-dropdown-item>
+                <el-dropdown-item command="shares">
+                  <el-icon><Share /></el-icon>
+                  我的分享
+                </el-dropdown-item>
                 <el-dropdown-item command="stats">
                   <el-icon><DataAnalysis /></el-icon>
                   数据统计
@@ -77,6 +81,7 @@ import {
   User,
   SwitchButton,
   Setting,
+  Share,
 } from '@element-plus/icons-vue'
 import { useUserStore } from '@/stores/user'
 import LoginDialog from '@/components/LoginDialog.vue'
@@ -122,6 +127,9 @@ const handleCommand = (command: string) => {
   switch (command) {
     case 'bookmarks':
       router.push('/my/bookmarks')
+      break
+    case 'shares':
+      router.push('/my/shares')
       break
     case 'stats':
       router.push('/stats')

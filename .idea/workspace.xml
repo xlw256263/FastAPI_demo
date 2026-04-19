@@ -5,38 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b4244f8-85ca-4c4a-8a3c-4acbac49f6fb" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/back/app/api/v1/statistics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/api/statistics.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/app/api/v1/admin_shares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/app/api/v1/public_shares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/app/api/v1/shares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/app/models/bookmark_share.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/app/schemas/bookmark_share.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/app/services/bookmark_share_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/migrations/add_bookmark_share_table.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/api/share.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/views/MySharesView.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/views/admin/ShareAdminView.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/文档/开发问题/用户分享-管理员审核.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/back/app/api/v1/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/back/app/api/v1/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/app/services/bookmark_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/back/app/services/bookmark_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/node_modules/.vite/deps/@element-plus_icons-vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/node_modules/.vite/deps/@element-plus_icons-vue.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/node_modules/.vite/deps/@element-plus_icons-vue.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/front/node_modules/.vite/deps/@element-plus_icons-vue.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/node_modules/.vite/deps/_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/node_modules/.vite/deps/_metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/node_modules/.vite/deps/axios.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/node_modules/.vite/deps/axios.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/node_modules/.vite/deps/axios.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/front/node_modules/.vite/deps/axios.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/node_modules/.vite/deps/chunk-BGRZ6U3R.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/node_modules/.vite/deps/chunk-BGRZ6U3R.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/node_modules/.vite/deps/chunk-BGRZ6U3R.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/front/node_modules/.vite/deps/chunk-BGRZ6U3R.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/node_modules/.vite/deps/chunk-G3PMV62Z.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/node_modules/.vite/deps/chunk-G3PMV62Z.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/node_modules/.vite/deps/chunk-KBO5XXYD.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/node_modules/.vite/deps/chunk-KBO5XXYD.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/node_modules/.vite/deps/chunk-VID4RN2V.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/node_modules/.vite/deps/chunk-VID4RN2V.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/node_modules/.vite/deps/chunk-VID4RN2V.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/front/node_modules/.vite/deps/chunk-VID4RN2V.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/node_modules/.vite/deps/element-plus.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/node_modules/.vite/deps/element-plus.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/node_modules/.vite/deps/element-plus.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/front/node_modules/.vite/deps/element-plus.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/node_modules/.vite/deps/element-plus_dist_locale_zh-cn__mjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/node_modules/.vite/deps/element-plus_dist_locale_zh-cn__mjs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/node_modules/.vite/deps/element-plus_dist_locale_zh-cn__mjs.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/front/node_modules/.vite/deps/element-plus_dist_locale_zh-cn__mjs.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/node_modules/.vite/deps/pinia.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/node_modules/.vite/deps/pinia.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/node_modules/.vite/deps/pinia.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/front/node_modules/.vite/deps/pinia.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/node_modules/.vite/deps/vue-router.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/node_modules/.vite/deps/vue-router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/node_modules/.vite/deps/vue-router.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/front/node_modules/.vite/deps/vue-router.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/node_modules/.vite/deps/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/node_modules/.vite/deps/vue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/app/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/back/app/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/app/models/bookmark.py" beforeDir="false" afterPath="$PROJECT_DIR$/back/app/models/bookmark.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/app/models/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/back/app/models/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/layouts/AdminLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/layouts/AdminLayout.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/layouts/AppLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/layouts/AppLayout.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/router/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/stores/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/stores/user.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/types/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/views/Login.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/views/StatsView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/views/StatsView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/views/BookmarkView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/views/BookmarkView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/views/OfficialView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/views/OfficialView.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,21 +47,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/user-profile",
-    "last_opened_file_path": "C:/Users/shumeng/Desktop/求职/2026/FastAPI_demo",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "terminal",
-    "ts.external.directory.path": "C:\\Users\\shumeng\\Desktop\\求职\\2026\\FastAPI_demo\\front\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/user-profile&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/shumeng/Desktop/求职/2026/FastAPI_demo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\shumeng\\Desktop\\求职\\2026\\FastAPI_demo\\front\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -89,7 +79,8 @@
       <option name="presentableId" value="Default" />
       <updated>1775574128664</updated>
       <workItem from="1775574129766" duration="302000" />
-      <workItem from="1776597377511" duration="4120000" />
+      <workItem from="1776597377511" duration="7891000" />
+      <workItem from="1776620150386" duration="376000" />
     </task>
     <servers />
   </component>

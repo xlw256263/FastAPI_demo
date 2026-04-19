@@ -60,6 +60,16 @@ const routes: RouteRecordRaw[] = [
     },
   },
   {
+    // 我的分享页 - 需要登录
+    path: '/my/shares',
+    name: 'MyShares',
+    component: () => import('@/views/MySharesView.vue'),
+    meta: { 
+      title: '我的分享',
+      requiresAuth: true,
+    },
+  },
+  {
     // 管理员后台 - 需要管理员权限
     path: '/admin',
     component: () => import('@/layouts/AdminLayout.vue'),
@@ -86,6 +96,16 @@ const routes: RouteRecordRaw[] = [
         component: () => import('@/views/admin/TagAdminView.vue'),
         meta: { 
           title: '标签管理',
+          requiresAdmin: true,
+        },
+      },
+      {
+        // 分享审核管理
+        path: 'shares',
+        name: 'AdminShares',
+        component: () => import('@/views/admin/ShareAdminView.vue'),
+        meta: { 
+          title: '分享审核管理',
           requiresAdmin: true,
         },
       },

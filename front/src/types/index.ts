@@ -377,6 +377,50 @@ export interface TagUsageStat {
   usage_count: number
 }
 
+// ============ 分享相关类型 ============
+
+export type ShareStatus = 
+  | 'draft'        // 草稿
+  | 'pending'      // 待审核
+  | 'reviewing'    // 审核中
+  | 'approved'     // 已通过
+  | 'rejected'     // 已驳回
+  | 'cancelled'    // 已取消
+  | 'taken_down'   // 已下架
+
+export interface ShareRecord {
+  id: number
+  bookmark_id: number
+  user_id: number
+  status: ShareStatus
+  review_note?: string | null
+  reject_reason?: string | null
+  submitted_at?: string | null
+  reviewed_at?: string | null
+  reviewer_id?: number | null
+  created_at: string
+  updated_at: string
+  
+  // 嵌套的书签信息
+  bookmark_title?: string | null
+  bookmark_url?: string | null
+  bookmark_description?: string | null
+  bookmark_favicon?: string | null
+  
+  // 用户信息
+  username?: string | null
+  
+  // 审核人信息
+  reviewer_username?: string | null
+}
+
+export interface ShareListResponse {
+  total: number
+  page: number
+  page_size: number
+  items: ShareRecord[]
+}
+
 // ==================== 公开分享相关类型（待后端实现）====================
 
 /**
